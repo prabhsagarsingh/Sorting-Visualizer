@@ -39,7 +39,7 @@ void selectionSort(){
     for(int i=0; i<n-1; i++){
         int min = i;
         
-		for (int j=i+1; j<n; j++){
+	for (int j=i+1; j<n; j++){
             if (arr[j] < arr[min]) {
                 min = j;  
             }
@@ -206,29 +206,29 @@ int main(){
 	randFill();
 	draw();
 	
-//	selectionSort();
-//	getchar();
-//	
-//	randFill();
-//	bubbleSort();
-//	getchar();
-//	
-//	randFill();
-//	insertionSort();
-//	getchar();
-//	
-//
-//	randFill();
-//	mergeSortStart();
-//	getchar();
+	selectionSort();
+	getchar();
+	
+	randFill();
+	bubbleSort();
+	getchar();
+	
+	randFill();
+	insertionSort();
+	getchar();
+	
+
+	randFill();
+	mergeSortStart();
+	getchar();
 
 	randFill();
 	quicksortstart();
 	getchar();
 
-//	randFill();
-//	heapSort();
-//	getchar();
+	randFill();
+	heapSort();
+	getchar();
 		
 	closegraph();
 	return 0;	
